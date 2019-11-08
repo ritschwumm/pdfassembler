@@ -90,7 +90,7 @@ If you want to use the same dictionary object in multiple places in a PDF, simpl
 
 For example, here is how to add a second page to the above PDF, and then re-use the resources from the first page:
 ```javascript
-// First, adda  new page:
+// First, add a  new page:
 helloWorldPdf['/Root']['/Pages']['/Kids'].push({
   '/Type': '/Page',
   '/MediaBox': [ 0, 0, 612, 792 ],
